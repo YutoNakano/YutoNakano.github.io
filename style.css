@@ -4,7 +4,7 @@ html {
 
 body {
     font-family: 'Fira Sans','TsukuARdGothic-Regular',sans-serif;
-    background: #151515 url(./images/YM_DSC8681_TP_V.jpg) no-repeat fixed left bottom;
+    background: #151515 url(./YM_DSC8681_TP_V.jpg) no-repeat fixed left bottom;
     background-size: cover;
     text-align: center;
     font-size: 1.4rem;
@@ -236,19 +236,19 @@ min-width: 100%;
 }
 
 .portfolio-box.mountain::after {
-    background-image: url('../HP作成/images/KM18923029_TP_V.jpg');
+    background-image: url('./KM18923029_TP_V.jpg');
 }
 
 .portfolio-box.seed::after {
-    background-image: url('../HP作成/images/ELFAokura20170720beauty-1_TP_V.jpg');
+    background-image: url('./ELFAokura20170720beauty-1_TP_V.jpg');
 }
 
 .portfolio-box.porple-flower::after {
-    background-image: url('../HP作成/images/KUMA1892018_TP_V.jpg');
+    background-image: url('./KUMA1892018_TP_V.jpg');
 }
 
 .portfolio-box.red-flower::after {
-    background-image: url('../HP作成/images/KUMA1892130_TP_V.jpg');
+    background-image: url('./KUMA1892130_TP_V.jpg');
 }
 
 .portfolio-box:nth-child(odd) .portfolio-image {
