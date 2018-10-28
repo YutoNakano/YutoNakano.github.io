@@ -1,9 +1,13 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:400,700);
+@import url(http://fonts.googleapis.com/earlyaccess/notosansjp.css);
+
 html {
     font-size: 62.5%;
 }
 
 body {
-    font-family: 'Fira Sans','TsukuARdGothic-Regular',sans-serif;
+    /* font-family: 'Fira Sans','TsukuARdGothic-Regular',sans-serif; */
+    font-family: "Times New Roman", Lato, "Noto Sans JP", "游ゴシック Medium", "游ゴシック体", "Yu Gothic Medium", YuGothic, "ヒラギノ角ゴ ProN", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
     background: #151515 url(./YM_DSC8681_TP_V.jpg) no-repeat fixed left bottom;
     background-size: cover;
     text-align: center;
@@ -38,7 +42,6 @@ body {
 
 
 
-
 .site-title {
     margin: 50px 0 50px;
     font-size: 8.6rem;
@@ -54,7 +57,7 @@ body {
     display: inline-block;
     width: 200px;
     padding: 20px;
-    margin: 40px 15px;
+    margin: 40px 50px;
     border-radius: 6px;
     background-color: #afa58d;
     color:#fff;
@@ -148,6 +151,7 @@ a {
 }
 
 .skill-text {
+    font-size: 1.2rem;
     margin: 20px;
     line-height: 2;
 }
@@ -155,24 +159,34 @@ a {
 .portfolio {
     background-color: #fff;
     color:black;
+    overflow: scroll;
+}
+
+.portfolio-introduction {
+    font-size: 2rem;
+}
+
+.portfolio-fix {
+    position:sticky;
+    left: 0;
 }
 
 .portfolio-wrapper {
+    display: inline-block;
     display: table;
-width: 100%;
-margin-top: 60px;
-table-layout: fixed;
-min-width: 100%;
-}
-
-
+    margin-top: 60px;
+    table-layout: fixed;
+    min-width: 100%;
+    
+    }
+    
+    
 .portfolio-image {
     display: block;
-    width:100%;
+    width:350px;
     margin: 0 0 60%;
     transition: 0.5s;
-    
-}
+}        
 
 .portfolio-image:hover {
     transform: scale(1.2);
@@ -225,8 +239,9 @@ min-width: 100%;
 .portfolio-text {
     display: table-cell;
     vertical-align: middle;
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     line-height: 2;
+    
 }
 
 .portfolio-text.button {
@@ -234,6 +249,7 @@ min-width: 100%;
     margin-top: 20px;
     padding: 3px;
 }
+
 
 .portfolio-box.mountain::after {
     background-image: url('./KM18923029_TP_V.jpg');
@@ -264,44 +280,9 @@ min-width: 100%;
     padding: 80px 0 150px;
 }
 
-.contact-form {
-    width: 50%;
-    margin: 50px auto 0;
-}
 
-.contact-form input[type=text],
-.contact-form textarea {
-    display: block;
-    width: 100%;
-    margin:  10px;
-    padding: 15px;
-    border: 1px solid rgba(255, 255, 255, 0.4);
-    border-radius: 0;
-    background-color: rgba(255, 255, 255, 0.05);
-    color: #fff;
-}
 
-.contact-form textarea {
-    height: 150px;
-}
 
-.contact-form input[type=submit] {
-    display: block;
-    width: 200px;
-    margin: 40px auto 0;
-    padding: 15px;
-    outline: none;
-    border: 1px solid rgba(255, 255, 255, 0.4);
-    border-radius: 5px;
-    background-color: transparent;
-    color: rgba(255, 255, 255, 0.6);
-    cursor: pointer;
-}
-
-.contact-form input[type=text]:focus,
-.contact-form textarea:focus {
-    box-shadow: 0 0 8px rgba(255, 255, 255, 0.5) inset;
-}
 
 .footer {
     padding: 12px 0;
@@ -342,10 +323,6 @@ min-width: 100%;
     line-height: 1.8rem;
 }
 
-
-.contact-form {
-    width: 80%;
-}
 
 .contact {
     padding-bottom: 80px;
